@@ -1,0 +1,104 @@
+//
+//  PrefixCommon.pch
+//  YRHXapp
+//
+//  Created by Apple on 2017/4/28.
+//  Copyright © 2017年 zw. All rights reserved.
+//
+
+#ifndef PrefixCommon_pch
+#define PrefixCommon_pch
+
+
+
+
+
+
+
+
+
+
+
+
+
+#import "UIColor+ColorChange.h"
+#import "UILabel+CZAddition.h"
+#import "MemberViewCell.h"
+#import "Masonry.h"
+#import "MemberModel.h"
+#import "YRHXPayPwController.h"
+#import "PersonInfoController.h"
+#import "PayPasswordController.h"
+#import "BindingCardController.h"
+#import "RealNameController.h"
+#import "YRHXAccountController.h"
+#import "WJTouchID.h"
+#import "STTextHudTool.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#define ZLRect(x, y, w, h)  CGRectMake([UIScreen mainScreen].bounds.size.width * x, [UIScreen mainScreen].bounds.size.height * y, [UIScreen mainScreen].bounds.size.width * w,  [UIScreen mainScreen].bounds.size.height * h)
+#define ZCFont(f) [UIScreen mainScreen].bounds.size.width * f
+#define YLSScreenBounds [UIScreen mainScreen].bounds
+
+#define screenBounds  [UIScreen mainScreen].bounds
+#define RGB(r, g, b)            [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+//屏幕宽
+#define kSCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+//屏幕高
+#define kSCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+//屏幕的尺寸
+#define screenBounds  [UIScreen mainScreen].bounds
+//tableView的高
+#define tableViewHeight screenBounds.size.height - 141.5
+// 优惠券背景图片的宽
+#define picWidth (screenBounds.size.width - 45) / 2
+//图形验证码   间距
+#define Kwidth (screenBounds.size.width - 45) / 3
+//环形进度条的视图宽度
+#define ViewWidth self.frame.size.width
+//环形进度条的圆环宽度
+#define ProgressWidth 2.5
+//环形进度条的半径
+#define Radius ViewWidth/2-ProgressWidth
+
+//指纹解锁的密码
+#define kUSERPASSWORD @"123321"
+
+
+ //设备屏幕的宽度
+#define KscreenWidth  [UIScreen mainScreen].bounds.size.width
+//设备屏幕的高度
+#define KscreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define maximumLabelSize CGSizeMake(KscreenWidth - 35, 9999)
+//#define KAccountHeight [UIScreen mainScreen].bounds.size.height -49
+
+
+
+#define KOptionHeight 285 * KscreenWidth/375
+
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixCommon_pch */

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VoucherRulesController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XtW-69-bNU">
+                    <rect key="frame" x="0.0" y="10" width="375" height="245"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="anP-hu-nfz">
+                            <rect key="frame" x="15" y="15" width="345" height="202"/>
+                            <string key="text">1.如何获得现金抵用券？
+凭可用积分在积分商城兑换不同面值现金抵用券，也可通过参加平台不定期活动获得现金抵用券。
+
+2.现金抵用券使用规则？
+注意现金抵用券是否有起投金额限制以及使用时间限制，每次投资只可使用一张现金抵用券，不可叠加使用。
+
+3.使用现金抵用券是否可以债权转让？
+可以，当使用现金券的投资进行债权转让时，券面金额将在转让成功时自动被扣除；同时，债权承接不可以使用现金抵用券。
+</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="anP-hu-nfz" secondAttribute="trailing" constant="15" id="HlX-Ne-G4O"/>
+                        <constraint firstAttribute="height" constant="245" id="IbJ-ti-SQF"/>
+                        <constraint firstItem="anP-hu-nfz" firstAttribute="top" secondItem="XtW-69-bNU" secondAttribute="top" constant="15" id="ZQm-Ja-J97"/>
+                        <constraint firstItem="anP-hu-nfz" firstAttribute="leading" secondItem="XtW-69-bNU" secondAttribute="leading" constant="15" id="ko4-ID-W7V"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="XtW-69-bNU" secondAttribute="trailing" id="ciJ-5Y-Qeh"/>
+                <constraint firstItem="XtW-69-bNU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="czU-fr-ch4"/>
+                <constraint firstItem="XtW-69-bNU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="gOd-np-qCT"/>
+            </constraints>
+            <point key="canvasLocation" x="26.5" y="51.5"/>
+        </view>
+    </objects>
+</document>

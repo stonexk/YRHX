@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="75" id="KGk-i7-Jjw" customClass="MoneyMingxiCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="充值" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ec-nV-cpJ">
+                        <rect key="frame" x="15" y="17" width="35" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0000/00/00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TE6-0U-NzB">
+                        <rect key="frame" x="15" y="41.5" width="84" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YDb-kH-fTb">
+                        <rect key="frame" x="102" y="42" width="64" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aQI-1o-tsR">
+                        <rect key="frame" x="270.5" y="26" width="34.5" height="23"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                        <color key="textColor" red="0.98270939089999998" green="0.046161677009999999" blue="0.1180796288" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="TE6-0U-NzB" secondAttribute="bottom" constant="15" id="2rQ-sl-g2A"/>
+                    <constraint firstItem="0Ec-nV-cpJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="17" id="95a-WF-okB"/>
+                    <constraint firstItem="0Ec-nV-cpJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="A32-z4-ibu"/>
+                    <constraint firstItem="aQI-1o-tsR" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="G5V-z3-eJc"/>
+                    <constraint firstItem="TE6-0U-NzB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="N4h-BR-1Vb"/>
+                    <constraint firstAttribute="trailing" secondItem="aQI-1o-tsR" secondAttribute="trailing" constant="15" id="qhN-eT-Crn"/>
+                    <constraint firstItem="YDb-kH-fTb" firstAttribute="leading" secondItem="TE6-0U-NzB" secondAttribute="trailing" constant="3" id="t8Y-4Q-5fh"/>
+                    <constraint firstItem="YDb-kH-fTb" firstAttribute="centerY" secondItem="TE6-0U-NzB" secondAttribute="centerY" id="wwI-Zr-Ieg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="moneyLabel" destination="aQI-1o-tsR" id="aVc-rd-kYF"/>
+                <outlet property="showLabel" destination="0Ec-nV-cpJ" id="r2G-0f-sdX"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="67.5"/>
+        </tableViewCell>
+    </objects>
+</document>

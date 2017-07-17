@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="J3g-hz-Id4">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Have Card Controller-->
+        <scene sceneID="dWU-fZ-gE1">
+            <objects>
+                <viewController id="J3g-hz-Id4" customClass="YEHXHaveCardController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="w35-TG-HyY"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ixn-or-YVN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bjc-qc-y7h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7vm-7T-kXr">
+                                <rect key="frame" x="17.5" y="50" width="340" height="85"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="银行卡" translatesAutoresizingMaskIntoConstraints="NO" id="oKY-1t-5zZ">
+                                        <rect key="frame" x="17.5" y="26" width="33" height="33"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="33" id="cVG-W5-PKZ"/>
+                                            <constraint firstAttribute="width" constant="33" id="oD9-CX-5ff"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中国建设银行" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edv-vA-lr9">
+                                        <rect key="frame" x="68" y="32" width="104" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.14228434764657394" green="0.46890510622842585" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="edv-vA-lr9" firstAttribute="leading" secondItem="oKY-1t-5zZ" secondAttribute="trailing" constant="17.5" id="49h-vF-Er6"/>
+                                    <constraint firstItem="edv-vA-lr9" firstAttribute="centerY" secondItem="7vm-7T-kXr" secondAttribute="centerY" id="8cz-yf-S5q"/>
+                                    <constraint firstAttribute="height" constant="85" id="BhY-hB-Vd0"/>
+                                    <constraint firstItem="oKY-1t-5zZ" firstAttribute="centerY" secondItem="7vm-7T-kXr" secondAttribute="centerY" id="GVD-wv-xX6"/>
+                                    <constraint firstItem="oKY-1t-5zZ" firstAttribute="leading" secondItem="7vm-7T-kXr" secondAttribute="leading" constant="17.5" id="Qe8-7W-bw4"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="7vm-7T-kXr" secondAttribute="trailing" constant="17.5" id="FJ8-XP-rdo"/>
+                            <constraint firstItem="7vm-7T-kXr" firstAttribute="leading" secondItem="bjc-qc-y7h" secondAttribute="leading" constant="17.5" id="KuC-iv-vBW"/>
+                            <constraint firstItem="7vm-7T-kXr" firstAttribute="top" secondItem="w35-TG-HyY" secondAttribute="bottom" constant="30" id="Y7i-xM-32d"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6sR-7a-Qnf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="184.80000000000001" y="215.44227886056973"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="银行卡" width="33" height="33"/>
+    </resources>
+</document>

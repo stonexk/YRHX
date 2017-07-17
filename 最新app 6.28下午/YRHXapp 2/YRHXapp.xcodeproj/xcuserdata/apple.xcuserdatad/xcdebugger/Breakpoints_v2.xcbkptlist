@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YRHXapp/Lib/WJTouchID/WJTouchID.m"
+            timestampString = "520331481.736183"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "-startWJTouchIDWithMessage:fallbackTitle:delegate:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YRHXapp/Lib/WJTouchID/WJTouchID.m"
+            timestampString = "520332201.57244"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
+            landmarkName = "-startWJTouchIDWithMessage:fallbackTitle:delegate:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YRHXapp/Classes/Account&#xff08;&#x8d26;&#x6237;&#xff09;/Login&#xff08;&#x767b;&#x5f55;&#x754c;&#x9762;&#xff09;/Controller/&#x4f1a;&#x5458;&#x4e2d;&#x5fc3;/Controller/YRHXMemberCenterController.m"
+            timestampString = "520333091.245287"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "461"
+            endingLineNumber = "461"
+            landmarkName = "-WJTouchIDAuthorizeErrorUserCancel"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YRHXapp/Classes/Account&#xff08;&#x8d26;&#x6237;&#xff09;/Login&#xff08;&#x767b;&#x5f55;&#x754c;&#x9762;&#xff09;/Controller/&#x4f1a;&#x5458;&#x4e2d;&#x5fc3;/Controller/YRHXMemberCenterController.m"
+            timestampString = "520333109.521842"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "466"
+            endingLineNumber = "466"
+            landmarkName = "-WJTouchIDAuthorizeErrorUserCancel"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

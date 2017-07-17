@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cuD-qj-V6w">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--No Card Controller-->
+        <scene sceneID="qEb-NN-HdA">
+            <objects>
+                <viewController id="cuD-qj-V6w" customClass="YEHXNoCardController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lvq-Qu-TuI"/>
+                        <viewControllerLayoutGuide type="bottom" id="xF8-Uu-n01"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2I5-Fd-jAk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bP3-mp-Co4">
+                                <rect key="frame" x="17.5" y="50" width="340" height="85"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="未绑卡" translatesAutoresizingMaskIntoConstraints="NO" id="6Ia-mM-Fh6">
+                                        <rect key="frame" x="30" y="30" width="33" height="33"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="33" id="0d5-D5-GHk"/>
+                                            <constraint firstAttribute="height" constant="33" id="dLV-ZJ-3PG"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您尚未添加任何银行卡" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0XK-PF-FQC">
+                                        <rect key="frame" x="93" y="36" width="173.5" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="OGD-01-BW7"/>
+                                    <constraint firstItem="6Ia-mM-Fh6" firstAttribute="leading" secondItem="bP3-mp-Co4" secondAttribute="leading" constant="30" id="VC1-70-rmk"/>
+                                    <constraint firstItem="0XK-PF-FQC" firstAttribute="centerY" secondItem="6Ia-mM-Fh6" secondAttribute="centerY" id="W0S-BU-EG4"/>
+                                    <constraint firstItem="0XK-PF-FQC" firstAttribute="leading" secondItem="6Ia-mM-Fh6" secondAttribute="trailing" constant="30" id="gr0-gB-dpw"/>
+                                    <constraint firstItem="6Ia-mM-Fh6" firstAttribute="top" secondItem="bP3-mp-Co4" secondAttribute="top" constant="30" id="rGm-co-EkZ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="bP3-mp-Co4" secondAttribute="trailing" constant="17.5" id="KMU-ym-Lz4"/>
+                            <constraint firstItem="bP3-mp-Co4" firstAttribute="leading" secondItem="2I5-Fd-jAk" secondAttribute="leading" constant="17.5" id="eDD-4X-T8R"/>
+                            <constraint firstItem="bP3-mp-Co4" firstAttribute="top" secondItem="lvq-Qu-TuI" secondAttribute="bottom" constant="30" id="lI3-GV-tAq"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2ho-vs-eRT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="128.80000000000001" y="-9.4452773613193415"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="未绑卡" width="41" height="41"/>
+    </resources>
+</document>

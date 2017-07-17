@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="UKK-0d-kKd">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--No Project Notice Controller-->
+        <scene sceneID="6wZ-w8-2pB">
+            <objects>
+                <viewController id="UKK-0d-kKd" customClass="YRHXNoProjectNoticeController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OTh-Lk-fPF"/>
+                        <viewControllerLayoutGuide type="bottom" id="xjO-EG-28h"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OOo-cb-gC0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="暂无新标" translatesAutoresizingMaskIntoConstraints="NO" id="nhR-kE-NV1">
+                                <rect key="frame" x="109.5" y="188" width="156" height="91"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="156" id="7lb-md-R9s"/>
+                                    <constraint firstAttribute="height" constant="91" id="II8-2t-UfF"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="暂无新标发布，敬请关注" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HV4-8V-1US">
+                                <rect key="frame" x="108.5" y="299" width="157.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nhR-kE-NV1" firstAttribute="centerX" secondItem="OOo-cb-gC0" secondAttribute="centerX" id="L1T-B6-tFb"/>
+                            <constraint firstItem="nhR-kE-NV1" firstAttribute="centerY" secondItem="OOo-cb-gC0" secondAttribute="centerY" constant="-100" id="NMC-hW-Asl"/>
+                            <constraint firstItem="HV4-8V-1US" firstAttribute="top" secondItem="nhR-kE-NV1" secondAttribute="bottom" constant="20" id="du0-ht-tsR"/>
+                            <constraint firstItem="HV4-8V-1US" firstAttribute="centerX" secondItem="OOo-cb-gC0" secondAttribute="centerX" id="eeu-2e-WKc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OlN-TI-HZ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="119" y="131"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="暂无新标" width="156" height="91"/>
+    </resources>
+</document>

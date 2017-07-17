@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="66u-e3-71D" customClass="TouBiaoView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ct-f2-Sse">
+                    <rect key="frame" x="15" y="15" width="345" height="40"/>
+                    <color key="backgroundColor" red="0.068351380530000005" green="0.57560646530000004" blue="0.96177083249999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="bXW-78-T6U"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                    <state key="normal" title="我要投标">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="1Ct-f2-Sse" secondAttribute="trailing" constant="15" id="0pI-bv-jYA"/>
+                <constraint firstItem="1Ct-f2-Sse" firstAttribute="leading" secondItem="66u-e3-71D" secondAttribute="leading" constant="15" id="eNS-pb-uI4"/>
+                <constraint firstItem="1Ct-f2-Sse" firstAttribute="top" secondItem="66u-e3-71D" secondAttribute="top" constant="15" id="iPY-Ci-3c3"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="toubiaoBtn" destination="1Ct-f2-Sse" id="YO7-Lm-7U3"/>
+            </connections>
+            <point key="canvasLocation" x="20" y="44"/>
+        </view>
+    </objects>
+</document>

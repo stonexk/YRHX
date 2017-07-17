@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="pzH-hK-qoJ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Auto Rules Controller-->
+        <scene sceneID="Tli-Db-rRk">
+            <objects>
+                <tableViewController id="pzH-hK-qoJ" customClass="AutoRulesController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="0jy-90-nni">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="Xnc-rh-Xkb">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="525" id="UgZ-iS-vc2">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="525"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UgZ-iS-vc2" id="xto-Ie-obD">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="525"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfH-zW-DTw">
+                                                    <rect key="frame" x="15" y="15" width="345" height="465.5"/>
+                                                    <mutableString key="text">1.自动投标是否有投资金额限制？  a.标的金额 ≤ 10万 限额 1 万   b.标的金额＞10万 限额 2 万 备注：单标手动投标不限额
+ 2.标的自动投标功能开启时间？
+自动投标在开标前15分钟开启，当开标十分钟后标未满将开启第二轮自动。
+ 3.自动投标现金抵用券使用规则？
+优先期限：当有多张现金券符合使用条件时，优先选择即将到期的。 优先金额：当有多张现金券符合使用条件时，优先选择金额较大的。
+ 4.自动投标、手动投标金额占比？
+每个借款标自动投标占比80%，手动投标占比20%，开启自动投标后，仍可采用手动投标操作投资同一标或不同标。
+
+5.修改投资期限、还款方式，是否影响排名？
+修改期限、还款方式将重新排名，修改金额、现金券设置不重新排名；期限设置和还款方式不匹配时，该借款标会顺延向下寻找其他资金，您的排名保留。
+
+6.账户余额是否影响排名？
+借款标设有投资金额上限，自动投标满限额投入后，则无论账户余额是否大于50元，都将重新排队。若非满额投入，且账户余额高于50元（≥￥50），则排名保留一次。如账户余额低于50元，则重新排队。
+</mutableString>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="cfH-zW-DTw" secondAttribute="trailing" constant="15" id="Q0Z-vn-DdR"/>
+                                                <constraint firstItem="cfH-zW-DTw" firstAttribute="leading" secondItem="xto-Ie-obD" secondAttribute="leading" constant="15" id="SRC-Sw-Pgc"/>
+                                                <constraint firstItem="cfH-zW-DTw" firstAttribute="top" secondItem="xto-Ie-obD" secondAttribute="top" constant="15" id="ZLa-Zd-utS"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="pzH-hK-qoJ" id="gyZ-k4-1l1"/>
+                            <outlet property="delegate" destination="pzH-hK-qoJ" id="7Ks-o0-cwV"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c1a-pc-ao2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="184.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>

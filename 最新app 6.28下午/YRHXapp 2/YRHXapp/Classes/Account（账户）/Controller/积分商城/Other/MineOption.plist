@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>message</key>
+		<string>0.00</string>
+		<key>name</key>
+		<string>余额</string>
+		<key>icon</key>
+		<string>优惠券</string>
+	</dict>
+	<dict>
+		<key>message</key>
+		<string>4</string>
+		<key>name</key>
+		<string>银行卡</string>
+		<key>icon</key>
+		<string>优惠券</string>
+	</dict>
+	<dict>
+		<key>message</key>
+		<string>立即转入</string>
+		<key>name</key>
+		<string>余额宝</string>
+		<key>icon</key>
+		<string>优惠券</string>
+	</dict>
+	<dict>
+		<key>message</key>
+		<string>查看详情</string>
+		<key>name</key>
+		<string>定期理财</string>
+		<key>icon</key>
+		<string>优惠券</string>
+	</dict>
+	<dict>
+		<key>message</key>
+		<string>因为信用,所以简单</string>
+		<key>name</key>
+		<string>芝麻信用</string>
+		<key>icon</key>
+		<string>优惠券</string>
+	</dict>
+	<dict>
+		<key>message</key>
+		<string>可用5.500.00</string>
+		<key>name</key>
+		<string>蚂蚁花呗</string>
+		<key>icon</key>
+		<string>优惠券</string>
+	</dict>
+	<dict>
+		<key>message</key>
+		<string>总额度56.000</string>
+		<key>name</key>
+		<string>蚂蚁借呗</string>
+		<key>icon</key>
+		<string>优惠券</string>
+	</dict>
+	<dict>
+		<key>message</key>
+		<string>     </string>
+		<key>name</key>
+		<string>    </string>
+		<key>icon</key>
+		<string>     </string>
+	</dict>
+	<dict>
+		<key>message</key>
+		<string>查看行情</string>
+		<key>name</key>
+		<string>股票</string>
+		<key>icon</key>
+		<string>优惠券</string>
+	</dict>
+	<dict>
+		<key>message</key>
+		<string>有保障更安心</string>
+		<key>name</key>
+		<string>我的保障</string>
+		<key>icon</key>
+		<string>优惠券</string>
+	</dict>
+	<dict>
+		<key>message</key>
+		<string>卧虎藏龙:青冥宝剑</string>
+		<key>name</key>
+		<string>娱乐宝</string>
+		<key>icon</key>
+		<string>优惠券</string>
+	</dict>
+	<dict>
+		<key>message</key>
+		<string>认真对待每一个梦想</string>
+		<key>name</key>
+		<string>淘宝众筹</string>
+		<key>icon</key>
+		<string>优惠券</string>
+	</dict>
+	<dict>
+		<key>message</key>
+		<string>爱在行动</string>
+		<key>name</key>
+		<string>爱心捐赠</string>
+		<key>icon</key>
+		<string>优惠券</string>
+	</dict>
+	<dict>
+		<key>message</key>
+		<string>     </string>
+		<key>name</key>
+		<string>    </string>
+		<key>icon</key>
+		<string>     </string>
+	</dict>
+</array>
+</plist>
