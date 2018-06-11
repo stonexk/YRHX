@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>YRHXapp.ipa</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				 <dict>  
+                    <key>kind</key>  
+                    <string>software-package</string>  
+                    <key>url</key>  
+                    <string>https://www.yrhx.com/ios/YRHXApp.ipa</string>  
+                </dict>  
+                <dict>  
+                    <key>kind</key>  
+                    <string>full-size-image</string>  
+                    <key>needs-shine</key>  
+                    <true/>  
+                    <key>url</key>  
+                    <string>https://www.yrhx.com/ios/image.512x512</string>  
+                </dict>  
+                <dict>  
+                    <key>kind</key>  
+                    <string>display-image</string>  
+                    <key>needs-shine</key>  
+                    <true/>  
+                    <key>url</key>  
+                    <string>https://www.yrhx.com/ios/image.57x57</string>  
+                </dict>  
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>1027874ABDFDDFA872957CC0D4E47A3053106F08</string>
+				<key>dateExpires</key>
+				<string>2019/6/8</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>MM499JK24H.com.dave.YRHXApp</string>
+				<key>com.apple.developer.team-identifier<
+				/key>
+				<string>MM499JK24H</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>MM499JK24H.com.dave.YRHXApp</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>yrhx.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>bcfe4621-d598-445f-b17d-36671d5676ac</string>
+				<key>name</key>
+				<string>YRHX_AdHoc_Profile</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>MM499JK24H</string>
+				<key>name</key>
+				<string>Shanaghai Xinxiang Network Technology Co., Ltd.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
