@@ -12,7 +12,7 @@
                    <key>kind</key>
                    <string>software-package</string>
                    <key>url</key>
-                   <string>http://www.yrhx.com/ios/YRHXApp.ipa</string>
+                   <string>https://raw.githubusercontent.com/stonexk/YRHX/master/YRHXApp.ipa</string>
                </dict>
                <dict>
                    <key>kind</key>
